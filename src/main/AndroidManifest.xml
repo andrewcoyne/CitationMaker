@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="drewapp.citationmaker1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/citationmaker4"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AskTitle"></activity>
+        <activity android:name=".AskAuthor"></activity>
+        <activity android:name=".NotYetImplemented" />
+        <activity android:name=".AskPub"></activity>
+        <activity android:name=".AskPubCity"></activity>
+        <activity android:name=".AskPubDate"></activity>
+        <activity android:name=".AskAccessDate"></activity>
+        <activity android:name=".AskAnnotation"></activity>
+        <activity android:name=".AskIfWebsite"></activity>
+        <activity android:name=".AskURL" />
+        <activity android:name=".AskWebsiteTitle" />
+        <activity android:name=".FinalCitation" />
+        <activity android:name=".ImportantInfo"></activity>
+    </application>
+
+</manifest>

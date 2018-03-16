@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="drewapp.citationmaker1.ImportantInfo">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="347dp"
+        android:layout_height="104dp"
+        android:text="CitationMaker has a couple large flaws that affect the accuracy of the citation. First, the app is not capable of italicizing the title and website title of the print and web sources. Second, MLA 7 requres that after the first line of the citation, all lines after that must be indented. The app is currently not capable of this."
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="16dp" />
+</android.support.constraint.ConstraintLayout>
